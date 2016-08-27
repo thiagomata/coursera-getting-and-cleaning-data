@@ -17,8 +17,7 @@ This project process the data, clean and merge some informations creating the [t
 
 You can see the description of the variables in the [code book](codeBook.md)
 
-More info can ben see into this link
-[http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"]
+More info can ben see into the article [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones")
 
 # This script must
 
