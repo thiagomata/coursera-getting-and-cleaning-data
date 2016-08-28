@@ -207,10 +207,9 @@ data[,"activity"] <- factor(data[,"activity"], labels = activity.labels)
 # independent tidy data set with the average of each variable for each activity and each subject.
 tidy.data <- group_by(data, subject, activity) %>% summarise_each(funs(mean))
 
-tidy.file <- file.path( dataset.download.dir, 'tidy_data.txt')
-
+tidy.file       <- file.path( dataset.download.dir, 'tidy_data.txt')
 # Output data to disk in fulfillment of: upload your data set as a txt file created with write.table() using row.name=FALSE
-write.table(tidy.data, row.name=FALSE, file= tidy.file)
+write.table(tidy.data, row.name=FALSE, file=tidy.file)
 
 head( tidy.data )
 ```
